@@ -15,21 +15,24 @@ A reusable Angular library for implementing system design components and pattern
 > 1. Navigate to the `dist` folder and publish the package
 
 ```powershell
-PS D:\TSA\ng-hello-world-lib>
+PS D:\TSA\ng-system-design-library>
+npm install -g @angular/cli
+
+PS D:\TSA\ng-system-design-library>
 ng new sv-ng18-workspace --create-application=false
 
-D:\TSA\ng-hello-world-lib\sv-ng18-workspace>
+PS D:\TSA\ng-system-design-library\sv-ng18-workspace>
 ng generate library hw-nglib
 
-PS D:\TSA\ng-hello-world-lib\sv-ng18-workspace\projects\hw-nglib\src\lib>
+PS D:\TSA\ng-system-design-library\sv-ng18-workspace\projects\hw-nglib\src\lib>
 ng generate component helloworld-h1
 
-D:\TSA\ng-hello-world-lib\sv-ng18-workspace>
+PS D:\TSA\ng-system-design-library\sv-ng18-workspace>
 ng build
 
 npm login --registry=https://npm.pkg.github.com/
 
-D:\TSA\ng-hello-world-lib\sv-ng18-workspace\dist\hw-nglib>
+PS D:\TSA\ng-system-design-library\sv-ng18-workspace\dist\hw-nglib>
 npm publish
 ```
 
