@@ -2,7 +2,11 @@
 
 A reusable Angular library for implementing system design components and patterns, providing tools and utilities to help developers create scalable, maintainable, and efficient applications.
 
-## Few Commmands - 17-Spe-2024
+## Reference(s)
+
+> 1. <https://angular.dev/cli/new>
+
+## Few Commmands - 17-Sep-2024
 
 > 1. Create a new workspace
 > 1. Create a new library
