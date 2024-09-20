@@ -2,7 +2,11 @@
 
 A reusable Angular library for implementing system design components and patterns, providing tools and utilities to help developers create scalable, maintainable, and efficient applications.
 
-## Few Commmands - 17-Spe-2024
+## Reference(s)
+
+> 1. <https://angular.dev/cli/new>
+
+## Few Commmands - 17-Sep-2024
 
 > 1. Create a new workspace
 > 1. Create a new library
@@ -22,17 +26,20 @@ PS D:\TSA\ng-system-design-library>
 ng new sv-ng-18-ws --create-application=false
 
 PS D:\TSA\ng-system-design-library\sv-ng-18-ws>
-ng generate library hw-nglib
+ng generate library sv-ng-system-design
 
-PS D:\TSA\ng-system-design-library\sv-ng-18-ws\projects\hw-nglib\src\lib>
-ng generate component helloworld-h1
+PS D:\TSA\ng-system-design-library\sv-ng-18-ws\projects\sv-ng-system-design\src\lib>
+ng generate component heading
+ng generate component button
 
 PS D:\TSA\ng-system-design-library\sv-ng-18-ws>
 ng build
 
 npm login --registry=https://npm.pkg.github.com/
+username: vishipayyallore
+password: gph
 
-PS D:\TSA\ng-system-design-library\sv-ng-18-ws\dist\hw-nglib>
+PS D:\TSA\ng-system-design-library\sv-ng-18-ws\dist\sv-ng-system-design>
 npm publish
 ```
 
