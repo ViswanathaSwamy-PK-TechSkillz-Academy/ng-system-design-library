@@ -26,9 +26,9 @@ PS D:\TSA\ng-system-design-library>
 ng new sv-ng-18-ws --create-application=false
 
 PS D:\TSA\ng-system-design-library\sv-ng-18-ws>
-ng generate library hw-nglib
+ng generate library sv-ng-system-design
 
-PS D:\TSA\ng-system-design-library\sv-ng-18-ws\projects\hw-nglib\src\lib>
+PS D:\TSA\ng-system-design-library\sv-ng-18-ws\projects\sv-ng-system-design\src\lib>
 ng generate component helloworld-h1
 
 PS D:\TSA\ng-system-design-library\sv-ng-18-ws>
@@ -36,7 +36,7 @@ ng build
 
 npm login --registry=https://npm.pkg.github.com/
 
-PS D:\TSA\ng-system-design-library\sv-ng-18-ws\dist\hw-nglib>
+PS D:\TSA\ng-system-design-library\sv-ng-18-ws\dist\sv-ng-system-design>
 npm publish
 ```
 
