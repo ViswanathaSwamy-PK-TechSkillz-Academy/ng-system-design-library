@@ -3,5 +3,38 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
+    "sv-ng-system-design": {
+      "projectType": "library",
+      "root": "projects/sv-ng-system-design",
+      "sourceRoot": "projects/sv-ng-system-design/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/sv-ng-system-design/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/sv-ng-system-design/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/sv-ng-system-design/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "tsConfig": "projects/sv-ng-system-design/tsconfig.spec.json",
+            "polyfills": [
+              "zone.js",
+              "zone.js/testing"
+            ]
+          }
+        }
+      }
+    }
   }
 }

@@ -19,6 +19,11 @@
     "importHelpers": true,
     "target": "ES2022",
     "module": "ES2022",
+    "paths": {
+      "sv-ng-system-design": [
+        "./dist/sv-ng-system-design"
+      ]
+    },
     "lib": [
       "ES2022",
       "dom"
