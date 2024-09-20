@@ -29,7 +29,8 @@ PS D:\TSA\ng-system-design-library\sv-ng-18-ws>
 ng generate library sv-ng-system-design
 
 PS D:\TSA\ng-system-design-library\sv-ng-18-ws\projects\sv-ng-system-design\src\lib>
-ng generate component helloworld-h1
+ng generate component heading
+ng generate component button
 
 PS D:\TSA\ng-system-design-library\sv-ng-18-ws>
 ng build
