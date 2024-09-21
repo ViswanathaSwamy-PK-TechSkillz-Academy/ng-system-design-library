@@ -41,6 +41,8 @@ password: gph
 
 PS D:\TSA\ng-system-design-library\sv-ng-18-ws\dist\sv-ng-system-design>
 npm publish
+
+ng build "sv-ng-system-design"
 ```
 
 ### package.json
