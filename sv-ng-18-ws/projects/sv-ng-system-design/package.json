@@ -3,10 +3,10 @@
   "version": "1.0.5",
   "peerDependencies": {
     "@angular/common": "^18.2.0",
-    "@angular/core": "^18.2.0",
-    "sv-ng-system-design": "file:"
+    "@angular/core": "^18.2.0"
   },
   "dependencies": {
+    "sv-ng-system-design": "file:",
     "tslib": "^2.3.0"
   },
   "sideEffects": false
